@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  geocoder:
+    container_name: some-postgis-geocoder
+    build:
+      context: .
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=geocoder
+      - POSTGRES_USER=postgres
+      - staging_fold=gisdata
