@@ -4,6 +4,9 @@
 ## Post container creation set-up
 run `post-install` script. It installs DC data only.
 
+- windows: `cmd /c post-intall.bat`
+- linux: `./post-intall.sh`
+
 ## Test use-cases
 - template
   ```
