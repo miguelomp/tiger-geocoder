@@ -1,3 +1,5 @@
+![license](https://img.shields.io/github/license/miguelomp/tiger-geocoder)
+
 ## Container locations
 - `/var/lib/postgresql/gisdata/`: temp folder and staging for this container
 
